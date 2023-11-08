@@ -1,0 +1,353 @@
+body{
+    margin: 0;                              /*убирает отступы от всех краев*/
+    background-image: url(https://altanschool.s3.eu-central-1.amazonaws.com/learns/1697021662483_headerpic.jpg); /*изображение фона*/
+    background-size: 100%;                  /*размер фона*/
+    background-position-y: -50px;           /*изображение чуть поднято наверх*/
+    background-attachment: fixed;           /*фиксация фона*/
+}
+
+header{
+    height: 100%;               /*высота*/
+    padding: 30px;          /*внутренний отступ*/
+    text-align: right;      /*текст выровнени влево*/
+    color: rgb(0, 0, 91); /*цвет текста*/
+    font-size: 25px;        /*размер текста*/
+}
+
+h1{
+    padding-top: 50px;  /*Дополнительный отступ заголовка*/
+    font-size: 80px;    /*размер заголовка*/
+    color:rgb(255, 255, 255);  /*цвет*/
+}
+
+main{
+    height: 1000px;   /*высота основной части*/
+    display: flex;
+}
+
+footer{
+    height: 100%;    /*высота*/
+    text-align: left;  /*текст выровннен влево*/
+    padding: 50px;   /*внутренний оступ*/
+    color: white;  /*цвет текста*/
+    font-size: 20px;  /*размер текста*/
+}
+
+.social{
+    list-style: none; /*убирает маркеры*/
+    display: flex; /*отображает в ряд*/
+    align-items: left; /*выравнивает иконки по центру внутри каждого пункта*/
+    justify-content: left; /*выравнивает все иконки по центру страницы*/
+    margin: 0;
+    padding: 0;
+}
+
+.social li {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+
+
+h1{
+    font-size: 30px;
+}
+
+.block1{
+    height: 800px;
+    color: red;
+    width: 25%;
+    font-size: 30px;
+    background-color: orange;
+    
+}
+
+
+.block2{
+    height: 800px;
+    width: 25%;
+    font-size: 30px;
+    background-color: pink;
+}
+
+
+.block3{
+    height: 800px;
+    width: 25%;
+    font-size: 30px;
+    background-color: blue;
+    
+}
+
+
+.block4{
+    height: 800px;
+    width: 25%;
+    font-size: 30px;
+    background-color: purple;
+
+}
+
+.block1 li{
+    padding-left: 20px;    
+    margin-top: 15px;
+    height: 45px;
+    width: 180px;
+    color: purple;
+    line-height: 1.5em;
+    list-style: none;
+    border-radius: 3em;    
+    background-color: aqua;
+    
+    
+}
+
+
+.block2 li{
+    padding-left: 20px;    
+    margin-top: 15px;
+    height: 45px;
+    width: 180px;
+    
+    color: purple;
+    line-height: 1.5em;
+    list-style: none;
+    border-radius: 3em;    
+    background-color: aqua;
+}
+
+
+.block3 li{
+    padding-left: 20px;    
+    margin-top: 15px;
+    height: 55px;
+    width: 260px;
+    
+    color: purple;
+    line-height: 1.5em;
+    list-style: none;
+    border-radius: 3em;    
+    background-color: aqua;
+}
+
+.block4 li{
+    padding-left: 20px;    
+    margin-top: 15px;
+    height: 55px;
+    width: 260px;
+    
+    color: purple;
+    line-height: 1.5em;
+    list-style: none;
+    border-radius: 3em;    
+    background-color: aqua;
+}
+
+
+
+.block1 li:hover{
+    background-color: red;
+    width: 230px;
+    height: 70px;
+    font-size: 45px;
+}
+
+
+.block2 li:hover{
+    background-color: red;
+    width: 230px;
+    height: 70px;
+    font-size: 45px;
+}
+
+
+.block3 li:hover{
+    background-color: red;
+    width: 370px;
+    height: 70px;
+    font-size: 45px;
+}
+
+
+
+
+.block4 li:hover{
+    background-color: red;
+    width: 370px;
+    height: 70px;
+    font-size: 45px;
+}
+
+
+.block1{
+    background: linear-gradient( to left, green, blue);
+
+
+}
+
+
+.block1 li{
+    background: linear-gradient( to left, red, purple);
+
+}
+
+.nav{
+    display: flex;
+    width: 100%;
+}
+
+form{
+    float: right;
+    display: flex;
+    padding-left: auto;
+    width: 100%;
+}
+
+.nav ul{
+    
+    background-color: rgba(153, 255, 0, 0.528);
+    color: black;
+    margin-bottom: 120px;
+    width: 100%;
+    
+    
+
+}
+
+
+.search{
+    float: right;
+    width: 70%;
+}
+
+.baton{
+    float: right;
+    width: 30%;
+    height: 60px;
+}
+
+.nav li{
+    list-style: none;
+}
+
+
+.nav a{
+    margin-left: 30px;
+    float: left;
+    text-decoration: none;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+.nav a:hover{
+    background-color: rgba(0, 200, 255, 0.787);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.nav{
+    position: sticky;
+    top: 0px;
+}
+
+
+
+.mai{
+    color:bisque;
+    margin-right: 50px;
+    background-color: rgba(0, 0, 255, 0.682);
+}
+
+
+.block5{
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    width: 100%;
+    height: 500px;
+    border: 40px solid pink;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+button{
+    border-radius: 3em;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+
+}
+
+
+.press{
+    padding: 10px;
+    margin: 50px;
+    color: red;
+    font-size: 30px;
+    font-weight: 900;
+    border: none;
+    border-radius: 20px;
+}
+
+
+button{
+    cursor: pointer;
+}
+
+
+.search{
+    height: 32px;
+    
+}
+
+.baton{
+    height: 30px;
+    width: 20%;
+}
+
+
+.baton:hover{
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    cursor: grab;
+}
+
+
+.txt{
+    text-align: left;
+    color: blue;
+    font-size: 40px;
+    animation-name: Pri;
+    padding: 0;
+    float: none;
+    text-shadow: 2px 2px 5px red;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+
+@keyframes Pri{
+    from{
+        
+        color: blue;
+        padding-left: 0%;
+    }
+    to{
+        
+        color: gold;
+        padding-left: 90%;
+        
+    }
+}
+
+
+.block1 li{
+    color:white;
+}
